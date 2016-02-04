@@ -36,6 +36,7 @@ GitHubReadmeGenerator::RakeTask.new :readme do |config|
   }
 end
 ```
+It's also possible to generate documentation for a puppet-module that's not resides in the same directory as your Rakefile. This can be done by setting a `MODULE_PATH` environment variable.
 
 ## Dependencies
 
